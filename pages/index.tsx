@@ -11,7 +11,7 @@ export default function Home() {
 
     const initialMaskSize = .8;
 
-    const targetMaskSize = 70;
+    const targetMaskSize = 55;
 
     const container = useRef(null);
 
@@ -55,6 +55,9 @@ export default function Home() {
                    </video>
                </div>
            </div>
+       <div className="h-[100vh] bg-white">
+
+       </div>
    </main>
     )
 }

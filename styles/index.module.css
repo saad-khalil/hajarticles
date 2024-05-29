@@ -1,7 +1,5 @@
 .main{
 
-    margin-bottom: 100vh;
-
 }
 
 
@@ -36,7 +34,7 @@
 
     mask-image: url('/logo.svg');
 
-    mask-position: 50% 41%;
+    mask-position: 49.84% 41%;
 
     mask-repeat: no-repeat;
 
