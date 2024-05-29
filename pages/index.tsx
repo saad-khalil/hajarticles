@@ -28,6 +28,8 @@ export default function Home() {
 
         const maskSizeProgress = targetMaskSize * getScrollProgress();
 
+
+        // @ts-ignore
         stickyMask.current.style.webkitMaskSize = (initialMaskSize + maskSizeProgress) * 100 + "%";
 
         requestAnimationFrame(animate)
@@ -38,6 +40,7 @@ export default function Home() {
 
     const getScrollProgress = () => {
 
+        // @ts-ignore
         const scrollProgress = stickyMask.current.offsetTop / (container.current.getBoundingClientRect().height - window.innerHeight)
 
         return scrollProgress
